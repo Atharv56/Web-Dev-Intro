@@ -103,6 +103,12 @@ footer{
     display: flex;
     justify-content: center;
 }
+@media only screen and (min-width: 600px) {
+    footer{
+        background-color: blue;
+    }
+    
+}
 a{
     text-decoration: none;
     color: black;
@@ -146,6 +152,17 @@ a:hover{
      height: 300px;
      width: 300px;
      margin: 30px;
+ }
+ @media only screen and (max-width: 725px){
+     .hero-info{
+         max-width: 600px;
+     }
+
+     .hero-image{
+         visibility: hidden;
+         height: 0px;
+     }
+     
  }
 
  .about-me{
