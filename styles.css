@@ -37,9 +37,9 @@ section{
         
 }
 .avatar{
-    width: 100px;
-    height: 100px;
-    border-radius: 50px; 
+    width: 150px;
+    height: 150px;
+    border-radius: 75px; 
 }
 #name{
     font-size: 45px;
@@ -124,6 +124,7 @@ a:active{
      height: 300px;
      width: 300px;
      margin: 30px;
+     border-radius: 5px;
  }
 
  .about-me{
