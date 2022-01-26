@@ -1,17 +1,14 @@
-document.addEventListener('DOMContentLoaded', () =>{
+document.write(20+11)
+window.alert("Welcome my friend")
 
-let count = 0
-function increment(){
-    count = count+1
-    console.log(count)
+let a , b, c
+a = 5 
+b = 6
+c = 10
+
+console.log(a+b+c)
+function myFunction(){
+   document.getElementById("demo").innerHTML = "Hello Atharv"
+
 }
-increment()
-const name = 'Atharv'
-function sendText(){
-    console.log('hey '+name+' you left your bag')
-}
-sendText()
-
-
-})//Or you can write the script tag below all the html code in the body
-
+console.log(a!==b)
