@@ -11,4 +11,5 @@ function myFunction(){
    document.getElementById("demo").innerHTML = "Hello Atharv"
 
 }
+myFunction()
 console.log(a!==b)
