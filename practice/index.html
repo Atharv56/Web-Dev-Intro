@@ -9,10 +9,15 @@
   </head>
   <body>
     <div>
-      <p>This is my first javascript</p>
+      <p>This is my second javascript</p>
       <p id="demo"></p>
       <button type="button" onclick="window.print()">To print</button>
     </div>
+    <button onclick="document.getElementById('myImage').src = 'assets/standing.jpg'">Stand</button>
+    <img id="myImage" src="assets/sitting.jpg" style="width: 100px">
+    <button onclick="document.getElementById('myImage').src='assets/sitting.jpg'">Sit</button> 
+
     <script src="src/index.js"></script>
   </body>
 </html>
+<!-- press alt + L + O to start a live server-->
