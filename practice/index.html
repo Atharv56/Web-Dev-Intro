@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="src/styles.css" />
-
-    <!-- Or you can write the script tag at the bottom of the body and the html code should always be above this tag -->
-    <title>File setup</title>
-    <meta charset="UTF-8" />
-  </head>
-  <body>
-    <div>
-      <p>This is my second javascript</p>
-      <p id="demo"></p>
-      <button type="button" onclick="window.print()">To print</button>
+<head>
+    <title>Hello, Bootstrap!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <style>
+    ::selection {
+  color: red;
+}
+  </style>
+  <p><h1>Hello thoseer</h1></p>
+    <button type="button" class="btn btn-default">Default</button>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-link">Link</button>
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Dropdown item</a></li>
+        <li><a class="dropdown-item" href="#">Dropdown item</a></li>
+        <li><a class="dropdown-item" href="#">Dropdown item</a></li>
+      </ul>
     </div>
-    <button onclick="document.getElementById('myImage').src = 'assets/standing.jpg'">Stand</button>
-    <img id="myImage" src="assets/sitting.jpg" style="width: 100px">
-    <button onclick="document.getElementById('myImage').src='assets/sitting.jpg'">Sit</button> 
-
-    <script src="src/index.js"></script>
-  </body>
+</body>
 </html>
-<!-- press alt + L + O to start a live server-->
